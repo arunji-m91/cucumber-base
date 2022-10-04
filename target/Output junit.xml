@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.342">
+<testcase classname="check login with valid credentials" name="check login with valid credentials" time="0.022">
+<system-out><![CDATA[Given user should be in adactin login page..................................passed
+When user should enter valid "Greens8767","L4R739"..........................passed
+And user should click login button..........................................passed
+Then user should verify the login is not success............................passed
+]]></system-out>
+</testcase>
+<testcase classname="check login with valid credentials" name="check login with invalid credentials" time="0.009">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user should be in adactin login page..................................passed
+When user should enter valid "Greens87","L4R758"............................passed
+And user should click login button..........................................passed
+Then user should verify the login success message as "Hello Greens8767!"....undefined
+]]></failure>
+</testcase>
+</testsuite>
