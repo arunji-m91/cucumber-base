@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 public class AdactinLoginTest {
 	
 	
-	private void check() {
+	private void retest(){
 		// TODO Auto-generated method stub
 
 	}
