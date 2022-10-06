@@ -1,6 +1,6 @@
 package step.definition;
-
 import java.util.concurrent.TimeUnit;
+
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -8,8 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.github.dockerjava.core.dockerfile.DockerfileStatement.Add;
 
+import com.github.dockerjava.core.dockerfile.DockerfileStatement.Add;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,10 +19,11 @@ public class AdactinLoginSteps {
 
 	WebDriver driver;
 
-	private void check() {
-		// TODO Auto-generated method stub
-
-	}
+	
+	
+	
+	
+	
 	@Given("user should be in adactin login page")
 	public void user_should_be_in_adactin_login_page() {
 		WebDriverManager.chromedriver().setup();
