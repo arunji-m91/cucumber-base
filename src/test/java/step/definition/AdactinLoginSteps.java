@@ -16,7 +16,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class AdactinLoginSteps {
 
 	WebDriver driver;
+private void testing() {
+	// TODO Auto-generated method stub
 
+}
+private void testing2() {
+	System.out.println();
+}
 	@Given("user should be in adactin login page")
 	public void user_should_be_in_adactin_login_page() {
 		WebDriverManager.chromedriver().setup();
