@@ -17,6 +17,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AdactinLoginSteps {
 
+	private void sysout() {
+		// TODO Auto-generated method stub
+	}
 	WebDriver driver;
 
 	private void check() {
